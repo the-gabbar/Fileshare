@@ -32,8 +32,8 @@ DB_URI = "mongodb+srv://susantamusic:susantabhan@cluster0.5pwi1py.mongodb.net/?r
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantearn.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "70b13a6643a508b1ede087e03392f23155cdf1e9")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 14400)) # Add time in seconds
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "01034ff14bb621c7d2211d0e563f4c66191d490c")
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 
