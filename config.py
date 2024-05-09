@@ -33,7 +33,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantearn.in")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "cd7cf2c628fcae856a01ce50191a7b5c92828e96")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 14400)) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 
@@ -42,7 +42,7 @@ TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
